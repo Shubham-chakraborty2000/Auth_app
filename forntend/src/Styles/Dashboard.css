@@ -1,0 +1,60 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #243447;
+  color: white;
+  padding: 20px;
+}
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+.sidebar ul li:hover {
+  color: #1da1f2;
+}
+.logout {
+  color: red;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: #f4f6f9;
+}
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+.card.blue { background: #007bff; }
+.card.purple { background: #6f42c1; }
+.card.green { background: #28a745; }
+
+.calendar-section, .events-section {
+  margin-top: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+}
