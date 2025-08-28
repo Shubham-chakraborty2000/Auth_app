@@ -27,7 +27,7 @@ const GoogleMapWithLocation = () => {
         },
         (err) => {
           setError(err.message);
-          setLoading(true);
+          setLoading(false);
           setUserLocation({ lat: 37.7749, lng: -122.4194 });
         }
       );
